@@ -1,0 +1,50 @@
+div
+{
+    /*background-color: #0ba2ff;*/
+}
+.cstmDiv
+{
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    font-size: 22px ;
+     /* flexbox */
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    align-self: center;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.titles
+{
+    background-color: #3f525c;
+    color: rgb(231, 233, 235);
+    block-size: auto;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+.text
+{
+    display: flex;
+    background-color: #bdc2c5;
+    color: #000000;
+    width: 100px;
+    font-size: 18px;
+    margin: 3px;
+    border-radius: 4px;
+    
+    flex-direction: column;
+    
+    /*
+    display: flex;
+    background-color: #bdc2c5;
+    color: #000000;
+    
+    block-size: auto;
+    text-decoration: none;
+    text-align: center;
+    
+    margin-bottom: 10px;
+    font-size: 18px ;*/
+}

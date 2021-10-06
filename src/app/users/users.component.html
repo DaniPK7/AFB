@@ -1,5 +1,18 @@
-<ul>
-    <li class="text" *ngFor="let item of items | async">
-      {{item.Nombre}} tiene {{item.Edad}} años.
-    </li>
-  </ul>
+<div class="cstmDiv">
+    <div class="titles">
+        Nombre
+        <a class="text" *ngFor="let item of items | async">
+            {{item.Nombre}}
+        </a>
+    </div>
+
+    <div class="titles">
+        Edad
+        <a class="text" *ngFor="let item of items | async">
+            {{item.Edad}}
+        </a>
+    </div>
+
+</div>
+
+    
